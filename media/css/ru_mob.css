@@ -1,0 +1,306 @@
+#crousContent {
+	font: 13px/1.231 arial,helvetica,clean,sans-serif;
+	background: #FFF !important;
+	color: #000 !important;
+	border-bottom: 2px solid #AAA;
+}
+
+/*Hack for Android*/
+#crousContent a {
+	color: #666 !important;
+}
+
+#crousContent p,
+#crousContent ul {
+	margin: 0;
+	padding: 0;
+}
+
+#crousContent ul li {
+	list-style-type: none;	
+}
+
+#crousContent #menusByResto .menuContainer h2,
+#crousContent #menusByResto .menuContainer h3,
+#crousContent #menusByResto .menuContainer h4 {
+	margin-left: 5px;
+}
+
+#crousContent #menusByResto .menuContainer ul {
+	margin-left: 8px;
+}
+
+#crousContent #menusByResto .menuContainer {
+	border: 1px solid #AAA;
+	clear: left;
+	width: 95%
+}
+
+#crousContent #menusByResto ul li.dateItem {
+	padding: 2px 0;
+	float: left;
+	margin-bottom: -1px;
+	border: 1px solid #AAA;
+}
+
+#crousContent #menusByResto ul li.currentDate {
+	color: #FFF;
+	background: #1681A8;
+}
+
+#crousContent #menusByResto ul li.currentDate a{
+	color: #FFF;
+}
+
+
+#crousContent #menusByResto li.dateItem a {
+	padding: 2px;
+}
+
+#crousContent #menusByResto ul.dateListContainer {
+	width: 100%;
+	align: center;
+}
+
+/*Hack for Android*/
+#crousContent h2,
+#crousContent h3 {
+	background: #FFF;
+	color: #000;
+}
+
+#crousContent .restoInfoPopup h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+}
+
+#crousContent #menusByResto h2,
+#crousContent h3 {
+	margin: 2px;
+	font-size: 16px;
+	color: #000;
+}
+
+#crousContent #menusByResto h2 a,
+#crousContent #menusByResto h3 a {
+	color: #000 !important;
+}
+
+#crousContent #menusByResto .nbOpenedRestos {
+	color: #F7A325;
+}
+
+#crousContent #menusByResto .zonePanel a.showZoneRestos {
+	padding-left: 18px;
+}
+#crousContent #menusByResto .zonePanelContent .expandable a.showRestoMenus,
+#crousContent #menusByResto .expandable a.showZoneRestos {
+	background: url('/crousmenus/media/img/listItem_expandable_mob.gif') no-repeat;
+}
+
+#crousContent #menusByResto .expandable .zonePanelContent {
+	display: none;
+}
+#crousContent #menusByResto .zonePanelContent .expanded a.showRestoMenus,
+#crousContent #menusByResto .expanded a.showZoneRestos  {
+	background: url('/crousmenus/media/img/listItem_expanded_mob.gif') no-repeat;
+}
+
+#crousContent #menusByResto .zonePanel {
+	margin-bottom: 15px;
+	clear: left;
+}
+
+#crousContent #menusByResto .restoPanel {
+	margin-left: 10px;
+	clear: left;
+}
+
+#crousContent #menusByResto .restoPanelContent {
+	padding-left: 5px;
+}
+
+#crousContent #menusByResto .menuContainer h2 {
+	color: #FFF;
+	clear: left;
+	background: #666;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#crousContent #menusByResto .menuContainer h3 {
+	font-size: 14px;
+	font-style: italic;
+	border-bottom: 1px dashed #666;
+	background: #FFF;
+	margin: 0;
+	padding: 2px;
+	padding-left: 10px;
+}
+
+#crousContent #menusByResto .menuContainer .equilibre {
+	background: #45A814;
+	color: #FFF;
+	font-size: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#crousContent #menusByResto .showRestoInfo {
+	background: url('/crousmenus/media/img/info-opened.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 30px;
+	padding-bottom: 3px;
+    padding-right: 30px;
+    padding-top: 3px;
+}
+
+#crousContent #menusByResto .showRestoMenus {
+	background: url('/crousmenus/media/img/menu.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 25px;
+	padding-bottom: 3px;
+    padding-top: 5px;
+}
+
+#crousContent #menusByResto  .noMenu .showRestoMenus {
+	background: url('/crousmenus/media/img/menu_none.png');
+	background-repeat: no-repeat;
+	padding-top: 3px;
+}
+
+#crousContent #menusByResto .ruClosed .showRestoInfo {
+	background: url('/crousmenus/media/img/info-closed.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#crousContent .restoInfoPopup {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+    background: #FFF;
+    color: #000;
+	font-size: 13px !important;
+	height: 1500px;
+}
+
+#crousContent .restoInfoPopup h3 {
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0;
+	padding: 5px;
+	background: #AAA;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #777;
+	border-bottom: solid 1px #AAA;
+}
+
+#crousContent .restoInfoPopup h3.ruOpened {
+	background: #F7A325 !important;
+	text-shadow: 1px 1px #FF9F5B;
+}
+
+#crousContent .restoInfoPopup h2 {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#crousContent .restoInfoPopup .detail br {
+	display: none;
+}
+
+#crousContent .restoInfoPopup .restoInfoDetails {
+	padding: 5px;
+}
+
+#crousContent .restoInfoPopup .label {
+	font-weight: bold;
+}
+
+#crousContent .restoInfoPopup .closeRestoInfoPopup {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	text-shadow: none;
+}
+
+#crousContent .restoInfoPopup table {
+  width: 80%;
+  font-size: 11px;
+  text-align: center;
+  border-color: #FFF;
+  margin-left: 20px;
+}
+
+#crousContent .restoInfoPopup table th {
+	background-color: transparent;
+	border: none;
+	color: #000;
+}
+
+#crousContent .restoInfoPopup table td {
+	border: 1px solid #FFF !important;
+	padding: 1px;
+	min-width: 50px;
+}
+
+#crousContent .restoInfoPopup img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#crousContent .restoInfoPopup .openingStatus {
+	color: #FFF;
+	padding: 0 3px;
+}
+
+#crousContent .restoInfoPopup .closed {
+	color: #CCC;
+	background: #CCC;
+	text-decoration:line-through;
+}
+
+#crousContent .restoInfoPopup .opened {
+	background-color: #B4CA20;
+	color:#FFF;
+	font-weight: bold;
+}
+
+#crousContent .restoInfoPopup .reopeningInfo {
+	color: #DD037B;
+	font-weight: bold;
+}
+
+#crousContent .restoInfoPopup .collapsed {
+	display: none;
+}
+
+#crousContent .infoSource {
+	display: block !important;
+	margin-left: 25%;
+}
+
+#crousContent .infoSource,
+#crousContent .infoSource a {
+	font-style: italic;
+	color: #999;
+	font-size: 11px;
+}
+
+#crousContent .infoSource a {
+	text-decoration: underline !important;
+}
+
+/*Fix the remaining zoom after "playing" with the select list*/
+#crousContent .ui-select .ui-btn select{
+font-size: 50px;
+}

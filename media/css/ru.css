@@ -1,0 +1,317 @@
+#crousContent html {
+	font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+
+#crousContent p,
+#crousContent ul {
+	margin: 0;
+	padding: 0;
+}
+
+#crousContent ul li {
+	list-style-type: none;
+}
+
+#crousContent #menusByResto .infoSource {
+	float: right;
+	display: block !important;
+}
+
+#crousContent .infoSource,
+#crousContent .infoSource a {
+	font-style: italic;
+	color: #999;
+	font-size: 11px;
+}
+
+#crousContent .infoSource a {
+	text-decoration: underline;
+}
+
+#crousContent #menusByResto {
+}
+
+#crousContent .menuContainer {
+	float: left;
+	border: 1px solid #AAA;
+	clear: left;
+	min-width: 60%;
+	margin-bottom: 4px;
+}
+
+#crousContent ul li.dateItem {
+	padding: 5px 5px;
+	float: left;
+	margin-bottom: -1px;
+	border: 1px solid #AAA;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0; 
+	border-radius: 5px 5px 0 0;
+}
+
+#crousContent ul li.currentDate {
+	color: #FFF;
+	background: #1681A8;
+}
+
+
+#crousContent ul li.dateItem:hover {
+	border: 1px solid #AAA;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0; 
+	border-radius: 5px 5px 0 0;
+	color: #FFF;
+	background: #93D2D8;
+	text-shadow: 1px 1px #60B4BC;
+}
+
+#crousContent ul li.currentDate a,
+#crousContent ul li.dateItem:hover a {
+	color: #FFF;
+}
+
+
+#crousContent li.dateItem a {
+	padding: 2px;
+}
+
+#crousContent ul.dateListContainer {
+	width: 80%;
+	align: center;
+}
+
+#crousContent h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+#crousContent h3 {
+	margin: 2px;
+	font-size: 15px;
+	color: #000;
+}
+
+#crousContent h2 a,
+#crousContent h3 a {
+	color: #000 !important;
+}
+
+#crousContent .nbOpenedRestos {
+	color: #ff9f5b;
+}
+
+#crousContent .zonePanel a.showZoneRestos {
+	padding-left: 15px;
+}
+#crousContent .zonePanelContent .expandable a.showRestoMenus,
+#crousContent #menusByResto .expandable a.showZoneRestos {
+	background: url('/crousmenus/media/img/listItem_expandable.gif') no-repeat;
+	background-position: 0 5px;
+}
+
+#crousContent #menusByResto .expandable .zonePanelContent {
+	display: none;
+}
+#crousContent .zonePanelContent .expanded a.showRestoMenus,
+#crousContent #menusByResto .expanded a.showZoneRestos  {
+	background: url('/crousmenus/media/img/listItem_expanded.gif') no-repeat;
+	background-position: 0 5px;
+}
+
+#crousContent .zonePanel {
+	margin-bottom: 10px;
+	clear: left;
+}
+
+#crousContent .restoPanel {
+	margin-left: 30px;
+	clear: left;
+}
+
+#crousContent .restoPanelContent {
+	padding-left: 25px;
+}
+
+#crousContent .menuDetails {
+	float: left;
+	background: url('/crousmenus/media/img/menuDetail_part.jpg');
+}
+
+#crousContent .menuContainer h2 {
+	color: #FFF;
+	clear: left;
+	background: #666;
+}
+
+#crousContent .menuDetails h3 {
+	font-size: 13px;
+	font-style: italic;
+	border-bottom: 1px dashed #666;
+	background: #FFF;
+	margin: 0;
+	padding: 2px;
+	padding-left: 15px;
+}
+
+#crousContent .menuPart {
+	float: left;
+	width: 150px;
+}
+
+#crousContent .menuPart h4 {
+	padding: 0 2px;
+}
+
+#crousContent .menuPart ul {
+	padding: 0 5px;
+}
+
+#crousContent .menuPart .equilibre {
+	background: #45A814;
+	color: #FFF;
+	font-size: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#crousContent .showRestoInfo {
+	background: url('/crousmenus/media/img/info-opened.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 30px;
+	padding-bottom: 3px;
+    padding-right: 30px;
+    padding-top: 2px;
+}
+
+#crousContent .showRestoMenus {
+	background: url('/crousmenus/media/img/menu.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 25px;
+	padding-bottom: 3px;
+    padding-top: 5px;
+}
+
+#crousContent  .noMenu .showRestoMenus {
+	background: url('/crousmenus/media/img/menu_none.png');
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+}
+
+#crousContent .ruClosed .showRestoInfo {
+	background: url('/crousmenus/media/img/info-closed.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#crousContent .restoInfoPopup {
+	position:absolute;
+	width:450px;
+	border: solid 1px #60B4BC;
+    background: #FFF;
+    -moz-border-radius: 5px 5px;
+	-webkit-border-radius: 5px 5px; 
+	border-radius: 5px 5px;
+	-moz-box-shadow: 1px 1px 20px #555;
+	z-index: 10000;
+}
+
+#crousContent .restoInfoPopup h3 {
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0;
+	padding: 5px;
+	background: #93D2D8;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #60B4BC;
+	border-bottom: solid 1px #60B4BC;
+}
+
+#crousContent .restoInfoPopup h2 {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#crousContent .restoInfoPopup .detail {
+	border-top: 1px dashed #DDD;
+	border-bottom: 1px dashed #DDD; 
+	max-height: 250px; 
+	overflow: auto; 
+}
+
+#crousContent .restoInfoPopup .detail br {
+	display: none;
+}
+
+#crousContent .restoInfoPopup .restoInfoDetails {
+	padding: 5px;
+}
+
+#crousContent .restoInfoPopup .label {
+	font-weight: bold;
+}
+
+#crousContent .restoInfoPopup .closeRestoInfoPopup {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	font-size: 9px;
+}
+
+#crousContent table {
+  width: 60%;
+  font-size: 11px;
+  text-align: center;
+  border-color: #FFF;
+  margin-left: 40px;
+}
+
+#crousContent table th {
+	background-color: transparent;
+	border: none;
+	color: #000;
+}
+
+#crousContent table td {
+	border: 1px solid #FFF !important;
+	padding: 1px;
+	min-width: 40px;
+}
+
+#crousContent .restoInfoPopup img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#crousContent .openingStatus {
+	color: #FFF;
+	padding: 0 3px;
+}
+
+#crousContent .closed {
+	color: #CCC;
+	background: #CCC;
+	text-decoration:line-through;
+}
+
+#crousContent .opened {
+	background-color: #B4CA20;
+	color:#FFF;
+	font-weight: bold;
+}
+
+#crousContent .reopeningInfo {
+	color: #DD037B;
+	font-weight: bold;
+}
+
+#crousContent .collapsed {
+	display: none;
+}
